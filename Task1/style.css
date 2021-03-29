@@ -1,0 +1,32 @@
+body{ /* Selector(elemento/etiqueta-html{}: Indica que lo siguiente son propiedades de estilo para los elementos/etiquetas html) */
+    background-color: rgb(228, 214, 197); /* 'x: y;': Regla que compone el Selector. X: Propiedad. Y: Valor de la propiedad */
+}
+
+nav{
+    text-align: right;
+}
+
+h1{ /* Los estilos que se asignan a los elementos html serán aplicadas cada vez que estas sean declaradas */
+    color: rgb(121, 49, 49);
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    color: rgb(59, 107, 129);
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+q{
+    font-size: 50px;
+    font-weight:  bolder;
+}
+
+img{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
