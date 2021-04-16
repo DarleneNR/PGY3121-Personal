@@ -1,9 +1,20 @@
-body{ /* Selector(elemento/etiqueta-html{}: Indica que lo siguiente son propiedades de estilo para los elementos/etiquetas html) */
+body{ /* Selector(elemento/etiqueta-html{ }: Indica que lo siguiente son propiedades de estilo para los elementos/etiquetas html) */
     background-color: rgb(228, 214, 197); /* 'x: y;': Regla que compone el Selector. X: Propiedad. Y: Valor de la propiedad */
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-nav{
-    text-align: right;
+#intro{ /* # Indica que se realizará los estilos a mencionar para los ID que son mencionados después de # */
+    
+}
+
+#team{
+    
+}
+
+#rescate{
+    
 }
 
 h1{ /* Los estilos que se asignan a los elementos html serán aplicadas cada vez que estas sean declaradas */
@@ -13,20 +24,47 @@ h1{ /* Los estilos que se asignan a los elementos html serán aplicadas cada vez
     text-transform: uppercase;
 }
 
-p{
-    color: rgb(59, 107, 129);
-    text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 q{
     font-size: 50px;
     font-weight:  bolder;
 }
 
-img{
-    float: right;
+/* Clases de estilos, estas clases pueden ser las mismas en diferentes etiquetas*/
+.type_letter{
+    color: rgb(19, 24, 36);
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    margin-left: 70px;
+}
+
+.img1{
+    float: left;
     margin-bottom: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 30px;
+    margin-left: 70px;
+    margin-top: 30px;
+    height: 150;
+    width: 250px;
+}
+.img2{
+    float: left;
+    margin-bottom: 150px;
+    margin-right: 30px;
+    margin-left: -280px;
+    margin-top: 260px;
+    height: 150;
+    width: 250px;
+}
+
+.letter_enlaces{
+    float: left;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.relleno{
+    text-align: right;
+    margin-bottom: 60px;
+    border-width: 150px;
 }
