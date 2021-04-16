@@ -5,14 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ayuda a un peludo</title>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css" type="text/css">
     </head>
-    <body topmargin="50" leftmargin="200">
+    <body class="container"> <!-- container: ordenará y organizará el contenido html del BODY -->
         <nav>
             <a href="ayudaPeludo.html">Inicio ></a>
         </nav>
-        <div topmargin="50" leftmargin="200">
-            <h1 align="center">GATOS EN ADOPCIÓN</h1>
+        <div>
+            <h1 class="text-white bg-dark text-center">GATOS EN ADOPCIÓN</h1>
             <p align="justify">The suspect says he left his office at six p.m., had a cup of coffee with friends, 
             went to the gym until eight p.m. and had dinner at a restaurant with his girlfriend until ten p.m.
             The suspect says he left his office at six p.m., had a cup of coffee with friends, 
@@ -20,20 +21,32 @@
             The suspect says he left his office at six p.m., had a cup of coffee with friends, 
             went to the gym until eight p.m. and had dinner at a restaurant with his girlfriend until ten p.m.</p>
         </div>
-        <div>
+        <div class="container-fluid"> <!-- container-fluid: ordenará y organizará el contenido con filas y columnas exactas -->
             <h1 align="center">Nuestros Gatos que buscan familia:</h1>
-        </div>
-        <div topmargin="300" leftmargin="200">
-            <img src="https://th.bing.com/th/id/OIP.ZEhqyxG8DMh0UAFEn2gBvgHaEo?pid=ImgDet&rs=1" alt="Ginger" height="150px">
-            <a href="opcionGato1.html">Ginger</a>
-        </div>
-        <div topmargin="500" leftmargin="200">
-            <img src="https://porodakoshek.ru/wp-content/uploads/2019/05/Gelmintoz-u-koshek.jpg" alt="Tommy" height="131px">
-            <a href="opcionGato2.html">Tommy</a>
-        </div>
-        <div topmargin="700" leftmargin="200">
-            <img src="https://images.fineartamerica.com/images-medium-large/portrait-cat-wwwandreakamalcom.jpg" alt="Lucifer" height="157px">
-            <a href="opcionGato3.html">Lucifer</a>
+            <div class="row"> <!-- row: filas -->
+                <div class="col-md-6"> <!-- col: columnas -->
+                    <img src="https://th.bing.com/th/id/OIP.ZEhqyxG8DMh0UAFEn2gBvgHaEo?pid=ImgDet&rs=1" alt="Ginger" height="150px">
+                </div>
+                <div class="col-md-6">
+                    <a href="opcionGato1.html">Ginger</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://porodakoshek.ru/wp-content/uploads/2019/05/Gelmintoz-u-koshek.jpg" alt="Tommy" height="131px" class="relleno">
+                </div>
+                <div class="col-md-6">
+                    <a href="opcionGato2.html">Tommy</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.fineartamerica.com/images-medium-large/portrait-cat-wwwandreakamalcom.jpg" alt="Lucifer" height="157px" class="relleno">
+                </div>
+                <div class="col-md-6">
+                    <a href="opcionGato3.html">Lucifer</a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
