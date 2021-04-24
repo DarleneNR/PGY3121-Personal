@@ -1,11 +1,24 @@
-body{ /* Selector(elemento/etiqueta-html{ }: Indica que lo siguiente son propiedades de estilo para los elementos/etiquetas html) */
-    background-color: rgb(228, 214, 197); /* 'x: y;': Regla que compone el Selector. X: Propiedad. Y: Valor de la propiedad */
+/* body{  Selector(elemento/etiqueta-html{ }: Indica que lo siguiente son propiedades de estilo para los elementos/etiquetas html)
+    background-color: rgb(228, 214, 197); 'x: y;': Regla que compone el Selector. X: Propiedad. Y: Valor de la propiedad
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
+} */
+
+/* Estructura */
+#inicio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+#team{
+    padding-bottom: 30px;
+}
+#rescate{
+    padding-bottom: 30px;
 }
 
-#intro{ /* # Indica que se realizará los estilos a mencionar para los ID que son mencionados después de # */
+#intro{
     
 }
 
@@ -17,25 +30,17 @@ body{ /* Selector(elemento/etiqueta-html{ }: Indica que lo siguiente son propied
     
 }
 
-h1{ /* Los estilos que se asignan a los elementos html serán aplicadas cada vez que estas sean declaradas */
-    color: rgb(121, 49, 49);
-    text-decoration: underline;
+/* Estilos letras */
+h1{
+    color: rgb(104, 40, 40);
     text-align: center;
     text-transform: uppercase;
 }
-
-q{
-    font-size: 50px;
-    font-weight:  bolder;
-}
-
-/* Clases de estilos, estas clases pueden ser las mismas en diferentes etiquetas*/
 .type_letter{
-    color: rgb(19, 24, 36);
+    color: rgb(0, 0, 0);
     text-transform: capitalize;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
-    margin-left: 70px;
 }
 
 .img1{
@@ -57,14 +62,8 @@ q{
     width: 250px;
 }
 
-.letter_enlaces{
-    float: left;
-    margin-left: 400px;
-    margin-bottom: 100px;
-}
-
-.relleno{
-    text-align: right;
-    margin-bottom: 60px;
-    border-width: 150px;
+/* Enlaces */
+.enlace_index{
+    margin-top: 50px;
+    margin-left: -90px;
 }
