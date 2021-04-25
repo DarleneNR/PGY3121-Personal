@@ -1,0 +1,26 @@
+body{
+    background-color: #604de5;
+    /* background-image: none;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto; */
+}
+
+/* Barra de Menú */
+.background-barra-menu{
+    background-color: rgb(255, 255, 255);
+}
+/* Logo */
+#logo {
+    height: 250px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Contenido Página */
+#contenido-principal{
+    background-color: #d4e6f4;
+    margin-top: 50px;
+}
+
