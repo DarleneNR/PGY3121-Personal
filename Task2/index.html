@@ -18,5 +18,66 @@
     </div>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" action="enviar.php" id="enviar" name="enviar" method="post">
+                        <fieldset>
+                            <h1>Cont&aacute;ctate con nosotros</h1>
+                            <div class="form-group" class="form-horizontal" action="enviar.php" id="enviar" name="enviar" method="post">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user"></i></span>
+                                <label for="fname" class="control-label col-xs-2">Nombre</label>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre(s)" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user"></i></span>
+                                <label for="lname" class="control-label col-xs-2">Apellido</label>
+                                <div class="col-md-8">
+                                    <input id="lname" name="lname" type="text" placeholder="Apellidos" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o"></i></span>
+                                <label for="email" class="control-label col-xs-2">Correo electr&oacute;nico</label>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="email" placeholder="Correo electr&oacute;nico" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square"></i></span>
+                                <label for="phone" class="control-label col-xs-2">Número celular</label>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Celular" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-map-marker"></i></span>
+                                <label for="city" class="control-label col-xs-2">Ciudad</label>
+                                <div class="col-md-8">
+                                    <input id="city" name="city" type="text" placeholder="Ciudad de residencia" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o"></i></span>
+                                <label for="message" class="control-label col-xs-2">Asunto</label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Introduzca su masaje para nosotros aquí." rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <input id="reset" name="limpiar" type="reset" class="btn btn-info" value="limpiar">
+                                    <input id="submit" name="enviar" type="submit" class="btn btn-info" value="enviar">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
